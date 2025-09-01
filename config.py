@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("29568441"))
+API_HASH = getenv("b32ec0fb66d22da6f77d355fbace4f2a")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8157361209:AAEIYpwzKX5qieDkh-eQIc-LntRJgco9m7I")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://rj5706603:O95nvJYxapyDHfkw@cluster0.fzmckei.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1003024437968", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("8159596599", None))
 
 ## Fill these variables if you're depRitiking on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EsproUpdate")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/EsproSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+Z1jK75agURM2YjA1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+FveZcgzCjU44MWY1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQE1hZwAmRxzle4AYlFbVZSeYtLuSGXFBaPzbv40wykwpC0h2LmDCa9jLVG0vMZFEJmyJBe5KtK1O_Zwatzyd6-gntfpfbYMH84w686OuNJqnFctlw4EuSzJjKMmwT9ay8tHwNGH4NC8IdC__g2MxQKO-W_Bmw4dxAecqJYMMm2x02BIah47Jln16GxyZX-zGKWur6pZoHn5qskEYxfV7MP86WQUFmukHYS7EU7ooY6Izrlk43Rg7u6Q2Diw71GzNVmb6v-7-TZQhJ2sOnFGfl6aio31XpmPDoHtaoFVpf_AiMcUM2DX7Oook47jH6xC8m7ATdGSukT_9NcXUdKeAA421ztkHwAAAAG4v4kIAA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
